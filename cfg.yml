@@ -1,0 +1,43 @@
+#Cookie
+Cookie: "LIVE_BUVID=AUTO5016202281239115; _uuid=24E05F69-88C2-5566-9D3D-6891D9F6005223821infoc; buvid3=F0089EBB-EB4F-43C2-9412-66523928791E13424infoc; bfe_id=5112800f2e3d3cf17a473918472e345c; PVID=2"
+#储存目录
+Dir: .
+#房间信息
+RoomInfo:
+  -
+    #房间号
+    RoomNum: 22528847
+    #多长时间检查一次 秒为单位
+    CheckTime: 20
+    #文件超过多少MB切割 0为不切割
+    SaveSpace: 0
+    #是否需要定时
+    NeedTicker: false
+    #从几点开始检测 一直等到主播开播,才开始录
+    BeginTime: 2200
+    #到几点结束 之后就算主播还在播也不在录播
+    EndTime: 0200
+  - #房间号
+    RoomNum: 264
+    #多长时间检查一次 秒为单位
+    CheckTime: 20
+    #文件超过多少MB切割 0为不切割
+    SaveSpace: 0
+    #是否需要定时
+    NeedTicker: false
+    #从几点开始检测 一直等到主播开播,才开始录
+    BeginTime: 2200
+    #到几点结束 之后就算主播还在播也不在录播
+    EndTime: 0200
+  - #房间号
+    RoomNum: 5523
+    #多长时间检查一次 秒为单位
+    CheckTime: 5
+    #文件超过多少MB切割 0为不切割
+    SaveSpace: 0
+    #是否需要定时
+    NeedTicker: false
+    #从几点开始检测 一直等到主播开播,才开始录
+    BeginTime: 2200
+    #到几点结束 之后就算主播还在播也不在录播
+    EndTime: 0200
